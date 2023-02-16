@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "IRANSans";
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-music {
+    width: 18%;
+    position: relative;
+    display: inline;
+}
+
+.main-music:hover.main-music img {
+    box-shadow: 0 0 25px #5d5d5d;
+    transform: translateY(-10px);
+}
+
+.main-music img {
+    width: 200px;
+    height: 220px;
+    transition: all .4s ease;
+    border-radius: 40px;
+}
+
+.main-music:hover i {
+    visibility: visible;
+
+}
+
+.fa-play {
+    background: #703ee4;
+    position: absolute;
+    width: 66px;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    height: 26px;
+    padding-top: 5%;
+    border-radius: 10px;
+    color: #fff;
+    visibility: hidden;
+}
