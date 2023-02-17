@@ -23,7 +23,7 @@ h1 {
 }
 
 .main-music {
-    width: 18%;
+    /* width: 17%; */
     position: relative;
     display: inline;
 }
@@ -35,7 +35,7 @@ h1 {
 
 .main-music img {
     width: 200px;
-    height: 220px;
+    height: 200px;
     transition: all .4s ease;
     border-radius: 40px;
 }
@@ -49,7 +49,7 @@ h1 {
     background: #703ee4;
     position: absolute;
     width: 66px;
-    left: 50%;
+    left: 35%;
     top: 40%;
     text-align: center;
     height: 26px;
